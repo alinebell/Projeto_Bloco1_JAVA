@@ -1,8 +1,6 @@
 package ProjetoBloco1;
 
-import java.util.Scanner;
-
-public abstract class BaseDesconto {
+public abstract class BaseProduto {
 	
 	private String nome;
 	private String marca;
@@ -49,6 +47,9 @@ public abstract class BaseDesconto {
 	public void setCodigoDeBarras(double codigoDeBarras) {
 		this.codigoDeBarras = codigoDeBarras;
 	}
+	
+	public abstract void imprimirInfo(); 
+	public abstract void taGelada();
 }
 	
 	

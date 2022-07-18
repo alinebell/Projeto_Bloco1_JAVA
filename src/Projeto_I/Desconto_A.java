@@ -1,9 +1,9 @@
 package Projeto_I;
 
-public abstract class Desconto {
+public abstract class Desconto_A {
 private double tipo;
 	
-	public Desconto(double tipo) {
+	public Desconto_A(double tipo) {
 		this.tipo = tipo;
 	}
 	
@@ -16,11 +16,4 @@ private double tipo;
 	public void setTipo(double tipo) {
 		this.tipo = tipo;
 	}
-
-	
-	
-	
-
-
-
 }
