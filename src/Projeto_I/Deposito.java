@@ -9,7 +9,7 @@ public class Deposito {
 	private double codigoDeBarras;
 	private double temperatura;
 	
-	public Deposito(String nome, String marca,String fabricante,double preco,double codigoDeBarras)
+	public Deposito(String nome, String marca,String fabricante,double preco,double codigoDeBarras, double temperatura)
 	{
 		this.nome=nome;
 		this.marca=marca;
@@ -26,7 +26,7 @@ public class Deposito {
 	}
 	
 	public void taGelada() {
-		if(this.temperatura>=2 || this.temperatura<=6 ){
+		if(this.temperatura>=2 && this.temperatura<=6 ){
 			System.out.println("A bebida está gelada!");
 		}else{
 			System.out.println("A bebida está quente");
