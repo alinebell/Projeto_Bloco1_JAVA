@@ -21,7 +21,6 @@ public class teste_Deposito {
 		System.out.println("Tipo do produto: "+nome);*/
 		
 		
-		Desconto desconto = new
 		
 			
 

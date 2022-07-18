@@ -2,7 +2,7 @@ package Projeto_I;
 
 public class Desconto_especial extends Desconto{
 
-	public Desconto_especial() {
+	public Desconto_especial(double tipo) {
 		super(tipo);
 		
 	}
