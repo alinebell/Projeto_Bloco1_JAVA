@@ -1,6 +1,6 @@
 package Projeto_I;
 
-public class Agua {
+public class Agua extends Deposito{
 	private boolean gas;
 	private boolean sabor;
 	public Agua(boolean gas, boolean sabor)

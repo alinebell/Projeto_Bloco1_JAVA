@@ -1,4 +1,4 @@
-package modulo1;
+package Projeto_I;
 
 import java.util.HashMap;
 import java.util.Scanner;

@@ -1,6 +1,6 @@
 package Projeto_I;
 
-public class Desconto_especial extends Desconto{
+public class Desconto_especial extends Desconto_A{
 
 	public Desconto_especial(double tipo) {
 		super(tipo);
