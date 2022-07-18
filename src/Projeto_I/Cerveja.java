@@ -11,9 +11,10 @@ public class Cerveja extends Deposito {
 	
 	
 	
-	public Cerveja(String nome, String marca, String fabricante, double preco, double codigoDeBarras, String semAlcool,
-	String pilsen, String weiss, String paleAle, String ale) {
-		super(nome, marca, fabricante, preco, codigoDeBarras);
+	public Cerveja(String nome, String marca, String fabricante, double preco, double codigoDeBarras, double temperatura, String semAlcool,
+	String pilsen, String weiss, String paleAle, String ale) 
+	{
+		super(nome, marca, fabricante, preco, codigoDeBarras, temperatura);
 		this.semAlcool = semAlcool;
 		this.pilsen = pilsen;
 		this.weiss = weiss;
@@ -21,6 +22,7 @@ public class Cerveja extends Deposito {
 		this.ale = ale;
 		
 	}
+	
 	public String getSemAlcool() {
 		return semAlcool;
 	}
@@ -33,7 +35,7 @@ public class Cerveja extends Deposito {
 	public String setPilsen(String pilsen) {
 		return this.pilsen = pilsen;
 	}
-	public String getWeiss() {
+	public String getWeiss() {	
 		return weiss;
 	}
 	public void setWeiss(String weiss) {

@@ -27,9 +27,9 @@ public class Deposito {
 	
 	public void taGelada() {
 		if(this.temperatura>=2 && this.temperatura<=6 ){
-			System.out.println("A bebida está gelada!");
+			System.out.println("A bebida esta gelada, temperatura"+temperatura);
 		}else{
-			System.out.println("A bebida está quente");
+			System.out.println("A bebida esta quente, temperatura"+temperatura);
 			}
 	}
 	
